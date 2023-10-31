@@ -1,3 +1,3 @@
-# IconProfile
+# Icon Profile
 
-This is where she makes a mod.
+Replaces the Main Menu Profile Sprite with your icon!
