@@ -18,7 +18,9 @@ int getFrameIcon(IconType type) {
 }
 
 class $modify(MenuLayer) {
-
+  static void onModify(auto& self) {
+        self.setHookPriority("MenuLayer::init", 2); // For bug fix
+    }
     bool init() {
         if (!MenuLayer::init())
             return false;
